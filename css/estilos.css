@@ -1,0 +1,382 @@
+
+body{
+	background-color: #FFFAFA;
+	margin: 0;
+	height: auto;
+	font-family: Helvetica,Arial,  sans-serif;
+	color: #777777;
+}
+
+/*Header...*/
+.main-header {
+	background-color: #FFFAFA;
+	padding: 1px 50px ;	
+}
+
+.container{
+	width: 100%
+	height: 110px;
+	margin: auto;
+	margin-left: 0px;
+}
+
+.imgL{
+	width: 190px; height: 90px;
+	padding:5px; 
+	margin-left: 50px;
+	float: left;
+	border-radius: 10px;
+}
+
+.banner{
+	background-color: none;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	width: 100%;
+	height: 80px;
+}
+
+.bannerB{
+	width: 100%;
+	height: 350px;
+	position: center;
+	opacity: 0.9;
+
+}
+.lista a,i{
+	color:#4CB3CF;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.lista{
+	width: 600px;
+}
+.lista li{
+	list-style-type:none;
+	display: inline-block;
+	padding-right: 25px;
+}
+
+.lista a{
+	text-decoration: none;
+}
+.contenedorMenuDiv li, a{
+	transition:  .3s;
+	padding: 10px 4px;
+	border-radius: 5px;
+	margin-left: 1px;
+	text-decoration: none;
+	color: #000;
+}
+
+.contenedorMenuDiv li a:hover{
+	transition: .3s;
+	padding: 10px 15px;
+	text-decoration:none; 
+	border-radius :5px;
+	margin-left: 1px;
+	background: rgba(54, 116, 141,.17);
+}
+/*OPCIONES*/
+.contenedorMenu{
+	width: 500px;
+	margin-left:20px;
+	font-size: 18px;
+	font-family:calibri black;
+	opacity: 1!important;
+}
+{
+	font-size: 10px;
+}
+.main-nav{
+	float: right;
+	margin-top: 5px;
+	padding-top: 0px;
+	width: 700px;
+}
+
+.contenedorMenuDiv{
+	width: 650px;
+}
+
+/*HEADER...*/
+
+
+
+/*SECTION...*/
+.sectionCenter{
+	width: 100%;
+	height: auto;
+	display: block;
+	position: initial;
+	margin:auto;
+}
+
+.section{
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+	display:inline;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.article{
+	padding-top: 20px;
+	margin: auto;
+	width: 43%;
+}
+.history{
+	text-align: center;
+	font-size: 19px;
+	position: relative;
+	margin: 380px auto 0px auto;
+	color: #000;
+}
+
+.botonB{
+	width: 500px;
+	margin: auto;
+}
+.masP{
+	width: 200px;
+	height: 30px;
+	margin-right: 50px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid #FFFAFA;
+	color: #FFFAFA;
+	font-weight: bold;
+	border-radius: 5px;
+	position:absolute;
+	margin-top: -150px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: -30px;
+}
+	/*sombreado en los menu opciones*/
+.masP:hover{
+	background: #053378;
+		color:#fff;
+	}
+.ofertaP{
+	width: 200px;
+	height: 30px;
+	border: 2px solid #FFFAFA;
+	color: #FFFAFA;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.3);
+	position:absolute;
+	margin-top: -150px;
+	margin-left: 300px;
+	height: 40px;
+	font-size: 20px;
+}
+.ofertaP:hover{
+		/*box-shadow: 2px 2px 20px #023B84,2px 2px 20px #023B84;
+		width: 210px;
+		height: 40px;*/
+		background: #053378;
+		color: #fff;
+		
+}
+.article{
+	margin-bottom: 100px;
+}
+.articlePC{
+	width: 250px;
+	height: 200px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+.prod{
+	
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 30%;
+    border-radius: 50%;
+   /*border: 3px solid #F0F0F0;*/
+}
+.pc{
+	text-align: center;
+	font-weight:900;
+	color: #000;
+	height: 100px auto;font-size: 16px;
+}
+.precioPC{
+	text-align: center;
+	color: red;
+	height: 10px;
+	width: 250px;
+	font-size: 18px;
+}
+.cuadro{
+	width: 240px;
+	height: 100%;
+	margin-right: 50px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.images{
+	width: 155px;
+	height: 155px;
+	margin-right: 50px;
+	display: inline-block;
+}
+.cuadro a{
+	text-align: center;
+	text-decoration: none;
+	color: #4cb3cf;
+	font-size: 14px;
+
+}
+.parrafo{
+	text-align: center;
+	font-size: 16px;
+}
+.espacio{
+	height: 200px;
+
+}
+
+/*FOOTER...*/
+.foot{
+	background-color: #F0F0F0;
+	overflow: hidden;
+	clear: both;
+	margin:0;
+	position: relative;
+	display: block;
+}
+/*letras del footer*/
+.dir,.derechos{
+	width: 121%;
+	margin: auto;
+	float: left;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.derechos li{
+	font-size: 12px;
+	list-style-type: none;
+	padding-top: 10px;
+	text-align: center;
+	padding-right: 1100px;
+}
+/*footer datos*/
+.dir a{
+	color:#4cb3cf 
+
+}
+.dats a{
+	margin-left: 30%;
+	
+}
+.dir div{
+	float: left;
+}
+.lu{
+	color: #4cb3cf;
+	list-style-type: none;
+	height: 10px;
+}
+
+.redeSociales{
+	margin: auto;
+	width: 1020px;
+	padding: 0px 183px;
+	height: 57px; 
+}
+.redeSociales i{
+	margin: auto;
+	color: #4cb3cf;
+	float: right;
+	margin-right: 12px;
+    font-size: 30px;
+    border-radius: 200px;
+}
+.redeSociales i:hover{
+	color: #053378;
+}
+
+}
+.derechos{
+	font-size: 5px;
+}
+
+
+/*LOGIN...*/
+.container-login{
+	width: 1023px; 
+	margin: auto;
+	padding-top: 300px;
+}
+.div-section{
+	width: 300px;
+	margin: auto; 
+	text-align: center;
+}
+.div-section form {
+	text-align: center;
+	padding-top: 15px;
+}
+.div-section form img{
+	width: 82%;
+}
+.div-section div{
+	margin: 10px 0 15px;
+}
+.div-section label{
+	display: block; 
+	margin-bottom: 10px;
+	font-family: 'Pathway Gothic One';
+	letter-spacing: 2px;
+}
+.div-section input{
+	width: 100%; 
+	height: 22px; 
+	border-radius: 5px; 
+	border: 1px solid #053378;
+}
+.div-section button{
+	border-radius: 5px; 
+	padding: 9px 31px ; 
+	background: -webkit-linear-gradient(top,#4cb3cf 10%,blue 100%); /* Chrome10-25,Safari5.1-6 */
+	font-family: 'Pathway Gothic One';
+	letter-spacing: 2px;
+	color: #ffffff; 
+	border:none;
+}
+.div-section button:hover{
+	background:darkblue;
+}
+.div-section a{
+	font-size: 13px;
+	font-family: 'Pathway Gothic One';
+	letter-spacing: 2px;
+	color: #000000;
+	text-decoration: none;
+}
+.div-section a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+	color: -webkit-linear-gradient(top,#e3c06d 10%,#d85a71 100%); /* Chrome10-25,Safari5.1-6 */
+}
+.registro{
+	padding-top: 68px;
+    float: left;
+    padding-left: 505px;
+}
+.registro label{
+	font-size: 18px;
+	font-family: 'Pathway Gothic One';
+	letter-spacing: 2px;
+}
+.registro input{
+	font-family: 'Pathway Gothic One';
+	font-size: 15px;
+}
